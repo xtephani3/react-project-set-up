@@ -1,0 +1,38 @@
+.nav-banner {
+    /* 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1.6rem var(--padding);
+    height: 5rem;
+    width: 100%; */
+    background: var(--verditer);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem var(--padding);
+    height: 5rem;
+
+}
+
+.nav-banner_socials-nav-wrap {
+    /* display: flex;
+    background: var(--clementine-earring);
+    padding: 1.6rem var(--padding);
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2.9rem;
+    width: 50%; */
+    display: flex;
+}
+
+.nav-banner_description-wrap {
+    /* width: 50%;
+    display: flex;
+    align-items: center; */
+}
+
+.nav-banner_socials{
+    /* display: flex; */
+}

@@ -1,0 +1,22 @@
+.nav-header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding:1.6rem var(--padding);
+    background: white;
+    height: 7.2rem;
+    border-bottom: 1px solid red;
+}
+
+.nav-header_nav-wrap ul{
+    display: flex;
+    gap: 4.4rem;
+}
+
+.nav-header_nav-wrap a{
+    text-decoration: none;
+}
+
+.nav-header_button-wrap{
+    display: flex;
+    align-items: center;
+}
