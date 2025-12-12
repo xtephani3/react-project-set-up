@@ -1,11 +1,13 @@
 import './App.css'
-import LandingPage  from './Pages/Landing/Landing.jsx'
+import HomePage  from './Pages/Home/Home.jsx'
+import { About } from './Pages/About-us/AboutUs.jsx'
 
 
 function App() {
   return (
     <>
-      <LandingPage/>
+      <HomePage/>
+      <About/>
     </>
   )
 }

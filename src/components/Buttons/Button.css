@@ -1,0 +1,12 @@
+.button--primary {
+    background: #FF9500;
+    border-radius: 6rem;
+    border: none;
+    padding: 16px 34px;
+    color: #fff;
+    font-family: Sora;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;  
+
+}

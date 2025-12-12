@@ -1,8 +1,11 @@
 @import 'assets/CSS/normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
 
 :root{
     font-size: 10px;
-    --padding:15rem;
+    --padding:5rem;
     --verditer: #00BEAE;
     --clementine-earring:#FF9E0E;
 }
