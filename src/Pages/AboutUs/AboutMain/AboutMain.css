@@ -1,0 +1,92 @@
+.about-main-container {
+    display: flex;
+    align-items: center;
+    padding-inline: var(--padding);
+    position: relative
+}
+
+.about-main-container .about-bird-sticker {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    width: 332px;
+    height: 120px
+}
+
+.about-main-container .about-cloud-sticker {
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    height: 72px
+}
+
+.about-main-container .about-main-content {
+    max-width: 1200px;
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+    gap: 64px;
+    padding-bottom: 120px
+}
+
+.about-main-container .about-main-content .about-main-art {
+    width: 70%
+}
+
+.about-main-container .about-main-content .about-main-art img {
+    width: 100%
+}
+
+.about-main-container .about-main-content .about-main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.about-main-container .about-main-content .about-main-info .title {
+    color: #ff9500;
+    font-size: 18px;
+    font-family: Poppins;
+    display: flex;
+    gap: 3px;
+    align-items: center
+}
+
+.about-main-container .about-main-content .about-main-info .subtitle {
+    font-size: 45px;
+    font-family: Sora;
+    font-weight: 600
+}
+
+.about-main-container .about-main-content .about-main-info .subtitle span {
+    color: #ff9500
+}
+
+.about-main-container .about-main-content .about-main-info .description {
+    font-size: 17px;
+    font-family: Sora;
+    color: #333931;
+    line-height: 32.3px
+}
+
+.about-main-container .about-main-content .about-main-info .qualities {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.about-main-container .about-main-content .about-main-info .qualities .quality-item {
+    padding: 20px 20px;
+    background: #f3f5f5;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-family: Poppins
+}
+
+.about-main-container .about-main-content .about-main-info .about-main-cta {
+    margin-top: 30px
+}

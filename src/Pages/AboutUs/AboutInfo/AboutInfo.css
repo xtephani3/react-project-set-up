@@ -1,0 +1,52 @@
+.about-info-container {
+  display: flex;
+  align-items: center;
+  padding-inline: var(--padding);
+}
+.about-info-container .about-info-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  max-width: 1200px;
+  font-family: Poppins;
+  margin: auto;
+  gap: 24px;
+  padding: 120px 0px;
+}
+.about-info-container .about-info-cards .about-info-card {
+  padding: 54px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #F3F5F5;
+  border-radius: 60px;
+}
+.about-info-container .about-info-cards .about-info-card:nth-child(2) {
+  background-color: #00BEAE;
+}
+.about-info-container .about-info-cards .about-info-card:nth-child(2) .icon {
+  background: #FFFFFF;
+}
+.about-info-container .about-info-cards .about-info-card:nth-child(2) p, .about-info-container .about-info-cards .about-info-card:nth-child(2) b {
+  color: #FFFFFF;
+}
+.about-info-container .about-info-cards .about-info-card .icon {
+  width: 90px;
+  height: 90px;
+  background: #00BEAE;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-info-container .about-info-cards .about-info-card b {
+  font-size: 21px;
+  font-weight: 700;
+  color: #0E2A46;
+}
+.about-info-container .about-info-cards .about-info-card p {
+  font-size: 14px;
+  color: #4D5756;
+  font-family: Sora;
+  line-height: 27px;
+}

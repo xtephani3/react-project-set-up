@@ -1,17 +1,14 @@
-import './App.css'
-import HomePage  from './Pages/Home/Home.jsx'
-import { About } from './Pages/About-us/AboutUs.jsx'
-
+import "./App.css";
+import { About } from "./Pages/AboutUs/AboutUs.jsx";
+import { HomePage } from "./Pages/Home/Home.jsx";
 
 function App() {
   return (
     <>
-      <HomePage/>
-      <About/>
+      <HomePage />
+      <About />
     </>
-  )
+  );
 }
 
-export default App
-
-
+export default App;
