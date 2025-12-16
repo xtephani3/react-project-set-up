@@ -1,0 +1,102 @@
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    padding-inline: var(--padding);
+    position: relative
+}
+
+.testimonial-container .testimonial-sun-sticker {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 170px;
+    height: 230px
+}
+
+.testimonial-container .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 110px 0;
+    margin-inline: auto
+}
+
+.testimonial-container .testimonial-content .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%
+}
+
+.testimonial-container .testimonial-content .header .title {
+    color: #ff9500;
+    font-size: 18px;
+    font-family: Poppins;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.testimonial-container .testimonial-content .header .subtitle {
+    font-size: 45px;
+    font-family: Sora;
+    font-weight: 600
+}
+
+.testimonial-container .testimonial-content .header .subtitle span {
+    color: #ff9500
+}
+
+.testimonial-container .testimonial-content .testimonials {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-top: 55px
+}
+
+.testimonial-container .testimonial-content .testimonials .testimonial-item {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 41px;
+    border: 2px dashed #ff9500;
+    border-radius: 10px
+}
+
+.testimonial-container .testimonial-content .testimonials .testimonial-item p {
+    font-size: 17px;
+    line-height: 32.3px;
+    font-family: Sora;
+    font-weight: 300;
+    padding: 13px 0
+}
+
+.testimonial-container .testimonial-content .testimonials .testimonial-item .avatar-section {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center
+}
+
+.testimonial-container .testimonial-content .testimonials .testimonial-item .avatar-section .avatar-info {
+    display: flex;
+    flex-direction: column
+}
+
+.testimonial-container .testimonial-content .testimonials .testimonial-item .avatar-section .avatar-info b {
+    font-weight: 700;
+    font-size: 17px;
+    color: #0e2a46;
+    font-family: Sora
+}
+
+.testimonial-container .testimonial-content .testimonials .testimonial-item .avatar-section .avatar-info span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 32px;
+    color: #00beae;
+    font-family: Sora
+}
