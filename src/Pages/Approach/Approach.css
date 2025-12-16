@@ -1,0 +1,109 @@
+.approach-container {
+    display: flex;
+    align-items: center;
+    padding-inline: var(--padding);
+    background-color: #f3f5f4;
+    position: relative
+}
+
+.approach-container .approach-bird-sticker {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 120px
+}
+
+.approach-container .approach-car-sticker {
+    position: absolute;
+    top: 90px;
+    left: 40%;
+    height: 48px
+}
+
+.approach-container .approach-rainbow-sticker {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    height: 90px
+}
+
+.approach-container .approach-wave-sticker {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: 36px
+}
+
+.approach-container .approach-contents {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 110px 0;
+    margin-inline: auto
+}
+
+.approach-container .approach-contents .approach-main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%
+}
+
+.approach-container .approach-contents .approach-main-info .title {
+    color: #ff9500;
+    font-size: 18px;
+    font-family: Poppins;
+    display: flex;
+    gap: 3px;
+    align-items: center
+}
+
+.approach-container .approach-contents .approach-main-info .subtitle {
+    font-size: 45px;
+    font-family: Sora;
+    font-weight: 600
+}
+
+.approach-container .approach-contents .approach-main-info .subtitle span {
+    color: #ff9500
+}
+
+.approach-container .approach-contents .approach-main-info .description {
+    font-size: 17px;
+    font-family: Sora;
+    color: #333931;
+    line-height: 32.3px
+}
+
+.approach-container .approach-contents .approach-main-info .qualities {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.approach-container .approach-contents .approach-main-info .qualities .quality-item {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-family: Poppins;
+    width: 40%
+}
+
+.approach-container .approach-contents .approach-main-info .approach-main-cta {
+    margin-top: 30px
+}
+
+.approach-container .approach-contents .approach-art {
+    width: 40%
+}
+
+.approach-container .approach-contents .approach-art img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}

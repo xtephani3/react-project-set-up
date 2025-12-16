@@ -10,3 +10,8 @@
     font-size: 15px;  
 
 }
+
+.button--primary.primary-teal{
+    background: #00BEAE;
+    color: #ffffff;
+}
