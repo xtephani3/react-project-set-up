@@ -3,6 +3,7 @@ import { About } from "./Pages/AboutUs/AboutUs.jsx";
 import { Approach } from "./Pages/Approach/Approach.jsx";
 import { HomePage } from "./Pages/Home/Home.jsx";
 import { Instructors } from "./Pages/Instructors/Instructors.jsx";
+import { Posts } from "./Pages/Posts/Posts.jsx";
 import { Stats } from "./Pages/Stats/Stats.jsx";
 import { Testimonial } from "./Pages/Testimonial/Testimonial.jsx";
 
@@ -15,6 +16,7 @@ function App() {
       <Approach />
       <Testimonial />
       <Instructors />
+      <Posts />
     </>
   );
 }

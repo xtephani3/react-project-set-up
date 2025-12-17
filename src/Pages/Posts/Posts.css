@@ -1,0 +1,108 @@
+.posts-container {
+    display: flex;
+    align-items: center;
+    padding-inline: var(--padding);
+    position: relative
+}
+
+.posts-container .posts-bird-sticker {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 120px
+}
+
+.posts-container .posts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 110px 0;
+    margin-inline: auto
+}
+
+.posts-container .posts-content .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.posts-container .posts-bird-sticker .header .header-info {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.posts-container .posts-content .header .title {
+    color: #ff9500;
+    font-size: 18px;
+    font-family: Poppins;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.posts-container .posts-content .header .subtitle {
+    font-size: 45px;
+    font-family: Sora;
+    font-weight: 600
+}
+
+.posts-container .posts-content .header .subtitle span {
+    color: #ff9500
+}
+
+.posts-container .posts-content .posts {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding-top: 55px
+}
+
+.posts-container .posts-content .posts .posts-item {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #efefef;
+    font-family: Sora;
+    border-radius: 5px
+}
+
+.posts-container .posts-content .posts .posts-item .art {
+    height: 206px;
+    background-color: rgba(0, 0, 0, .4392156863);
+    margin-bottom: 24px;
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.posts-container .posts-content .posts .posts-item .art img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.posts-container .posts-content .posts .posts-item .stats {
+    display: flex;
+    gap: 20px
+}
+
+.posts-container .posts-content .posts .posts-item .stats span {
+    color: #4d5756;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.posts-container .posts-content .posts .posts-item p {
+    font-size: 19px;
+    line-height: 26.6px;
+    font-weight: 500;
+    padding: 17px 0
+}
