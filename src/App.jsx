@@ -1,6 +1,7 @@
 import "./App.css";
 import { About } from "./Pages/AboutUs/AboutUs.jsx";
 import { Approach } from "./Pages/Approach/Approach.jsx";
+import { Footer } from "./Pages/Footer/Footer.jsx";
 import { HomePage } from "./Pages/Home/Home.jsx";
 import { Instructors } from "./Pages/Instructors/Instructors.jsx";
 import { Posts } from "./Pages/Posts/Posts.jsx";
@@ -17,6 +18,7 @@ function App() {
       <Testimonial />
       <Instructors />
       <Posts />
+      <Footer />
     </>
   );
 }
